@@ -1,0 +1,33 @@
+#Contact_info{
+	float:left;
+	position:relative;
+	height: 480px;
+	overflow: hidden;
+	width: 245px;
+	color: black;
+	top: -490px;
+	left: 10px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #5D5D5D;
+}
+.Contact_all-items{
+    border-top: 1px dashed #E3E3E3;
+}
+#Contact_wrapper{
+	height: 500px;
+	overflow: auto;
+	width: 245px;
+	border: none;
+	outline: none;
+	background-color: #fafafa;
+}
+#Contact_wrapper p{
+	cursor : pointer;
+	padding: 5px 6px;
+	margin:  5px 6px;
+	font-size: 12px;
+}
+.selected{
+	background-color : #ebebeb;
+}
